@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+
+	<!-- Global stylesheets -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+	<link href="global_assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css">
+	<!-- /global stylesheets -->
+
+	<!-- Core JS files -->
+	<script src="global_assets/js/main/jquery.min.js"></script>
+	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<!-- /core JS files -->
+
+	<!-- Theme JS files -->
+	<script src="global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script src="global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="global_assets/js/plugins/pickers/daterangepicker.js"></script> 
+	<script src="assets/js/app.js"></script>
+	<script src="global_assets/js/demo_pages/dashboard.js"></script>
+	<!-- /theme JS files -->
+
+</head>
+
+<body>
+
+	<!-- Main navbar -->
+	<div class="navbar navbar-expand-md navbar-dark">
+		<div class="navbar-brand wmin-200">
+			<a href="index.html" class="d-inline-block">
+				<img src="global_assets/images/logo_light5.png" alt="" width="180px" height="20px">
+			</a>
+		</div>
+
+		<div class="d-md-none">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+				<i class="icon-tree5"></i>
+			</button>
+			<button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+				<i class="icon-paragraph-justify3"></i>
+			</button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navbar-mobile">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block">
+						<i class="icon-paragraph-justify3"></i>
+					</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+						  <i class="icon-bell2"></i>
+						<span class="d-md-none ml-2">Notifications</span>
+						<span class="badge badge-pill badge-mark bg-orange-400 border-orange-400 ml-auto ml-md-0"></span>
+					</a>
+
+					<div class="dropdown-menu dropdown-content wmin-md-350">
+						<div class="dropdown-content-header">
+							<span class="font-weight-semibold">All Notifications</span>
+							<a href="#" class="text-default"><i class="icon-search4 font-size-base"></i></a>
+						</div>
+
+						<div class="dropdown-content-body dropdown-scrollable">
+							<ul class="media-list">
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-success-400 rounded-round btn-icon"><i class="icon-file-check"></i></a>
+									</div>
+
+									<div class="media-body">
+										<a href="#">TDA</a> has updated Schedule A status 
+										<div class="font-size-sm text-muted mt-1">4 minutes ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-danger rounded-round btn-icon"><i class="icon-alert"></i></a>
+									</div>
+
+									<div class="media-body">
+										An issue was created by <a href="#">Prasarna</a>
+										<div class="font-size-sm text-muted mt-1">36 minutes ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-indigo rounded-round btn-icon"><i class="icon-file-plus"></i></a>
+									</div>
+
+									<div class="media-body">
+										<a href="#">MRCB-GK</a> added a new <span class="font-weight-semibold">Schedule A form</span> 
+										<div class="font-size-sm text-muted mt-1">2 hours ago</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-danger-300 rounded-round btn-icon"><i class="icon-folder-remove"></i></a>
+									</div>
+
+									<div class="media-body">
+										Schedule A has been deleted by 
+                                        <a href="#">MRCB-GK</a>
+                                        
+										<div class="font-size-sm text-muted mt-1">Feb 8, 11:30</div>
+									</div>
+								</li>
+
+								<li class="media">
+									<div class="mr-3">
+										<a href="#" class="btn bg-warning-400 rounded-round btn-icon"><i class="icon-comment"></i></a>
+									</div>
+
+									<div class="media-body">
+										Review received on ICP Issues by <a href="#">TDA</a>
+										<div class="font-size-sm text-muted mt-1">Feb 2, 10:20</div>
+									</div>
+								</li>
+
+								
+							</ul>
+						</div>
+
+						<div class="dropdown-content-footer bg-light">
+							<a href="#" class="text-grey mr-auto">All notifications</a>
+							<div>
+								<a href="#" class="text-grey" data-popup="tooltip" title="Clear list"><i class="icon-checkmark3"></i></a>
+								<a href="#" class="text-grey ml-2" data-popup="tooltip" title="Settings"><i class="icon-gear"></i></a>
+							</div>
+						</div>
+					</div>
+				</li>
+                <li class="nav-item">
+					<a href="#" class="navbar-nav-link sidebar-control sidebar-right-toggle d-none d-md-block">
+						<i class="icon-transmission"></i>
+					</a>
+				</li>
+			</ul>
+			</ul>
+
+			<span class="badge bg-success-400 ml-md-auto mr-md-3">Active</span>
+
+			<ul class="navbar-nav">
+<!--
+				
+-->
+
+					
+				
+
+				<li class="nav-item dropdown dropdown-user">
+					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
+						<img src="global_assets/images/demo/users/face11.jpg" class="rounded-circle mr-2" height="34" alt="">
+						<span>Parminder</span>
+					</a>
+
+					<div class="dropdown-menu dropdown-menu-right">
+						<a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+						<a href="#" class="dropdown-item"><i class="icon-notification2"></i> Notification <span class="badge badge-pill bg-orange ml-auto">58</span></a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+						<a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- /main navbar -->
+
+
+	<!-- Page header -->
+	<div class="page-header">
+		<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+			<div class="d-flex">
+				<div class="breadcrumb">
+					<a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+					<span class="breadcrumb-item active">Add Schedule A</span>
+				</div>
+
+				<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+			</div>
+
+			<div class="header-elements d-none">
+				<div class="breadcrumb justify-content-center">
+					<a href="#" class="breadcrumb-elements-item">
+						<i class="icon-comment-discussion mr-2"></i>
+						Help / Support
+					</a>
+
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="page-header-content header-elements-md-inline">
+			<div class="page-title d-flex">
+				<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Home</span> - Add Schedule A</h4>
+				<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+			</div>
+
+			<div class="header-elements d-none mb-3 mb-md-0">
+				<div class="d-flex justify-content-center">
+					<a href="#" class="btn btn-link btn-float text-default sidebar-right-toggle"><i class="icon-filter4 text-indigo-400"></i> <span>Filter/Search</span></a>
+					<a href="scheduleA.html" class="btn btn-link btn-float text-default"><i class="icon-file-plus2 text-indigo-400"></i> <span>Add Schedule A</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /page header -->
+
+
+	<!-- Page content -->
+	<div class="page-content pt-0">
+
+		<!-- Main sidebar -->
+		<div class="sidebar sidebar-light sidebar-main sidebar-expand-md align-self-start">
+
+			<!-- Sidebar mobile toggler -->
+			<div class="sidebar-mobile-toggler text-center">
+				<a href="#" class="sidebar-mobile-main-toggle">
+					<i class="icon-arrow-left8"></i>
+				</a>
+				<span class="font-weight-semibold">Main sidebar</span>
+				<a href="#" class="sidebar-mobile-expand">
+					<i class="icon-screen-full"></i>
+					<i class="icon-screen-normal"></i>
+				</a>
+			</div>
+			<!-- /sidebar mobile toggler -->
+
+
+			<!-- Sidebar content -->
+            <!-- User menu -->
+                <div class="sidebar-user">
+					<div class="card-body">
+						<div class="media">
+							<div class="mr-3">
+								<a href="#"><img src="global_assets/images/demo/users/face11.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+							</div>
+
+							<div class="media-body">
+								<div class="media-title font-weight-semibold">Parminder</div>
+								<div class="font-size-xs opacity-50">
+									<i class="icon-pin font-size-sm"></i> &nbsp;MRCB-GK, ICP Provider
+								</div>
+							</div>
+
+							<div class="ml-3 align-self-center">
+								<a href="#" class="text-white"><i class="icon-cog3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+            <!-- /user menu -->
+            	
+
+			<div class="sidebar-content">
+				<div class="card card-sidebar-mobile">
+					<!-- Header -->
+					<div class="card-header header-elements-inline">
+						<h6 class="card-title">Navigation</h6>        
+						<div class="header-elements">
+							<div class="list-icons">
+								<a class="list-icons-item" data-action="collapse"></a>
+							</div>
+						</div>
+					</div>
+					<!-- Main navigation -->
+					<div class="card-body p-0">
+						<ul class="nav nav-sidebar" data-nav-type="accordion">
+
+							<!-- Main -->
+							<li class="nav-item-header mt-0"><div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu" title="Main"></i></li>
+							<li class="nav-item">
+								<a href="index.html" class="nav-link">
+									<i class="icon-home4"></i>
+									<span>
+										ICP Projects
+									</span>
+								</a>
+							</li>
+							<li class="nav-item nav-item-submenu nav-item-expanded nav-item-open">
+								<a href="#" class="nav-link active"><i class="icon-copy"></i> <span>Schedule A</span></a>
+
+								<ul class="nav nav-group-sub active" data-submenu-title="Schedule A">
+									<li class="nav-item"><a href="addScheduleA.html" class="nav-link active">Add Schedule A</a></li>
+									<li class="nav-item"><a href="index.html" class="nav-link">Edit Schedule A</a></li>
+									<li class="nav-item"><a href="index.html" class="nav-link">Delete Schedule A</a></li>		
+								</ul>
+							</li>
+							<li class="nav-item nav-item-submenu">
+								<a href="#" class="nav-link"><i class="icon-color-sampler"></i> <span>Themes</span></a>
+
+								<ul class="nav nav-group-sub" data-submenu-title="Themes">
+									<li class="nav-item"><a href="index.html" class="nav-link active">Default</a></li>
+									<li class="nav-item"><a href="http://demo.interface.club/limitless/demo/bs4/Template/layout_3/LTR/material/full/index.html" class="nav-link">Material</a></li>
+									<li class="nav-item"><a href="http://demo.interface.club/limitless/demo/bs4/Template/layout_3/LTR/dark/full/index.html" class="nav-link disabled">Dark <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+									<li class="nav-item"><a href="http://demo.interface.club/limitless/demo/bs4/Template/layout_3/LTR/clean/full/index.html" class="nav-link disabled">Clean <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a href="http://demo.interface.club/limitless/demo/bs4/Template/layout_3/RTL/default/full/index.html" class="nav-link"><i class="icon-width"></i> <span>RTL version</span></a></li>
+							<!-- /main -->
+
+							<!-- Layout -->
+							
+							<!-- /layout -->
+
+						</ul>
+					</div>
+					<!-- /main navigation -->
+
+				</div>
+			</div>
+			<!-- /sidebar content -->
+
+		</div>
+		<!-- /main sidebar -->
+
+
+		<!-- Main content -->
+		<div class="content-wrapper">
+
+			<!-- Content area -->
+			<div class="content">
+
+				<!-- Main charts -->
+				
+
+						<!-- Traffic sources -->
+						
+						<!-- /traffic sources -->
+
+
+						<!-- Sales stats -->
+						
+						<!-- /sales stats -->
+
+					
+				<!-- /main charts -->
+
+                
+      
+
+				<!-- Dashboard content -->
+				<div class="row">
+					<div class="col-xl-12">
+
+						<!-- Marketing campaigns -->
+						<div class="card">
+	
+							<div class="table-responsive">
+								<table class="table text-nowrap">
+									<thead>
+										<tr>
+											<th>Schedule A</th>
+											<th>Procurring Agency</th>
+											<th>Procurring Value</th>
+											<th>Status</th>
+											<th class="text-center" style="width: 20px;"><i class="icon-arrow-down12"></i></th>
+										</tr>
+                                    
+									</thead>
+									<tbody>
+                                            <tr class="table-active table-border-double">
+											<td colspan="5">Direct Project</td>
+											
+										</tr>
+										
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">MRT 3: Piling</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-blue mr-1"></span>
+															02:00 - 03:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">Prasarna</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 500,489</h6></td>
+											<td><span class="badge bg-blue">Active</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+                                                       
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">MRT 3: Cement</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-danger mr-1"></span>
+															13:00 - 14:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">Prasarna</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 2,000,592</h6></td>
+											<td><span class="badge bg-danger">Closed</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">LRT 3: Piling</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-grey-400 mr-1"></span>
+															10:00 - 11:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">Prasarna</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 1,548,652,268</h6></td>
+											<td><span class="badge bg-grey-400">On hold</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">LRT 3: Cement</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-grey-400 mr-1"></span>
+															04:00 - 05:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">Prasarna</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 5,980</h6></td>
+											<td><span class="badge bg-grey-400">On hold</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+
+										<tr class="table-active table-border-double">
+											<td colspan="5">Indirect Project</td>
+											
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+															<img src="" class="rounded-circle" width="32" height="32" alt="">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">Software Engineering  </a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-success mr-1"></span>
+															15:00 - 16:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">HummingSoft Sdn Bhd</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 90,700</h6></td>
+											<td><span class="badge bg-success-400">Pending</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+												
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold"> Piloting Program</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-blue mr-1"></span>
+															18:00 - 19:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">AirAsia Sdn Bhd</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 1,540</h6></td>
+											<td><span class="badge bg-blue">Active</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+													<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div class="d-flex align-items-center">
+													<div class="mr-3">
+														<a href="#">
+														</a>
+													</div>
+													<div>
+														<a href="#" class="text-default font-weight-semibold">Cooking</a>
+														<div class="text-muted font-size-sm">
+															<span class="badge badge-mark border-danger mr-1"></span>
+															20:00 - 21:00
+														</div>
+													</div>
+												</div>
+											</td>
+											<td><span class="text-muted">Cooking Specialist Sdn Bhd</span></td>
+											<td><h6 class="font-weight-semibold mb-0">RM 8,350</h6></td>
+											<td><span class="badge bg-danger">Closed</span></td>
+											<td class="text-center">
+												<div class="list-icons">
+													<div class="list-icons-item dropdown">
+														<a href="#" class="list-icons-item dropdown-toggle caret-0" data-toggle="dropdown"><i class="icon-menu7"></i></a>
+														<div class="dropdown-menu dropdown-menu-right">
+															<a href="#" class="dropdown-item"><i class="icon-file-stats"></i> View Schedule A</a>
+															<a href="#" class="dropdown-item"><i class="icon-file-text2"></i> Edit Schedule A</a>
+                                                            <div class="dropdown-divider"></div>
+															<a href="#" class="dropdown-item"><i class="icon-file-minus2"></i> Delete Schedule A</a>
+														</div>
+													</div>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!-- /marketing campaigns -->
+
+
+					</div>
+               
+                    
+                    	
+
+				
+                   
+				</div>
+				<!-- /dashboard content -->
+
+			</div>
+			<!-- /content area -->
+
+		</div>
+		<!-- /main content -->
+        
+         <div class="sidebar sidebar-light sidebar-right sidebar-expand-sm align-self-start">
+                    	<!-- Sidebar search -->
+				<div class="card">
+					<div class="card-header header-elements-inline">
+						<h6 class="card-title">Search</h6>
+						<div class="header-elements">
+							<div class="list-icons">
+		                		<a class="list-icons-item" data-action="collapse"></a>
+	                		</div>
+                		</div>
+					</div>
+
+					<div class="card-body">
+						<form action="#">
+							<div class="form-group-feedback form-group-feedback-right">
+								<input type="search" class="form-control" placeholder="Search">
+								<div class="form-control-feedback">
+									<i class="icon-search4 font-size-base text-muted"></i>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- /sidebar search -->
+                    </div>
+	</div>
+	<!-- /page content -->
+
+
+	<!-- Footer -->
+	<div class="navbar navbar-expand-lg navbar-light">
+		<div class="text-center d-lg-none w-100">
+			<button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
+				<i class="icon-unfold mr-2"></i>
+				Footer
+			</button>
+		</div>
+
+		<div class="navbar-collapse collapse" id="navbar-footer">
+			<span class="navbar-text">
+				&copy; 2019 <a href="#">ICP MANAGEMENT SYSTEM (IMAS)</a> by <a href="http://themeforest.net/user/Kopyov" target="_blank">HummingSoft</a>
+			</span>
+
+			<ul class="navbar-nav ml-lg-auto">
+				<li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link" target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
+				<li class="nav-item"><a href="http://demo.interface.club/limitless/docs/" class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a></li>
+				<li class="nav-item"><a href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov" class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i class="icon-cart2 mr-2"></i> Purchase</span></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- /footer -->
+
+</body>
+
+<!-- Mirrored from demo.interface.club/limitless/demo/bs4/Template/layout_3/LTR/default/full/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Nov 2018 06:06:02 GMT -->
+</html>
